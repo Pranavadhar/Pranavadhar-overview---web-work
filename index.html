@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRANAVADHAR PORTFOLIO</title>
+    <style>
+      .MYSELF {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+      }
+      .HOME {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: calc(40-80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .SUBJECTS {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: calc(40 - 80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .PROJECTS {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: calc(40 - 80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .CONTESTS {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: calc(40 - 80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .EDUCATION {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 15px;
+        width: calc(40 - 80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      .CONTACT {
+        background-color: rgb(15, 1, 8);
+        color: white;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: calc(40 - 80px);
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+      
+      .HOME:hover,
+      .SUBJECTS:hover,
+      .PROJECTS:hover,
+      .CONTESTS:hover,
+      .EDUCATION:hover,
+      .CONTACT:hover {
+        background-color: aqua;
+        color: black;
+      }
+    </style>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+          let isInformationDisplayed = false; // Flag variable to track whether the information is displayed
+
+          const homeButton = document.querySelector('.HOME');
+          homeButton.addEventListener('click', () => {
+            if (!isInformationDisplayed) {
+              const informationDiv = document.createElement('div');
+              informationDiv.innerText = 'Experienced in software development and proficient in front end development, with a strong track record of creating visually appealing websites. Skilled in problem solving and upgrading core competencies in machine learning and staying ahead in updating skills for development.';
+              informationDiv.style.backgroundColor = 'aqua';
+              informationDiv.style.color = 'black';
+              informationDiv.style.border = '2px solid black';
+              informationDiv.style.margin = '20px';
+              informationDiv.style.padding = '20px';
+
+              const body = document.querySelector('body');
+              body.appendChild(informationDiv);
+
+              isInformationDisplayed = true; // Set the flag to true to indicate that the information is displayed
+            }
+          });
+        });
+        window.addEventListener('DOMContentLoaded', (event) => {
+          let isInformationDisplayed = false; // Flag variable to track whether the information is displayed
+
+          const technicalButton = document.querySelector('.SUBJECTS');
+          technicalButton.addEventListener('click', () => {
+            if (!isInformationDisplayed) {
+              const informationDiv = document.createElement('div');
+              informationDiv.innerText = `1)Programming languages – C, Python, C++
+                  2)Data Structures and Algorithm
+                  3)Front-end Web development tools – HTML, CSS, JAVA SCRIPT
+                  4)Machine Learning
+                  5)Design & Prototype - FIGMA`;
+              informationDiv.style.backgroundColor = 'aqua';
+              informationDiv.style.color = 'black';
+              informationDiv.style.border = '2px solid black';
+              informationDiv.style.margin = '20px';
+              informationDiv.style.padding = '20px';
+
+              const body = document.querySelector('body');
+              body.appendChild(informationDiv);
+
+              isInformationDisplayed = true; // Set the flag to true to indicate that the information is displayed
+            }
+          });
+        });
+        window.addEventListener('DOMContentLoaded', (event) => {
+          let isInformationDisplayed = false; // Flag variable to track whether the information is displayed
+
+          const projectButton = document.querySelector('.PROJECTS');
+          projectButton.addEventListener('click', () => {
+            if (!isInformationDisplayed) {
+              const informationDiv = document.createElement('div');
+              informationDiv.innerText = `1) NOTEPAD APPLICATION: Implemented using tkinter GUI
+              
+              It is a simple text editor and a light weight windows based application that allows the user to create, edit and view a plain text document.
+              
+              2) Gaming application: Implemented using tkinter GUI
+              
+              It is a simple Tic-Tac-Toe game a light weight windows based application that allows the user to play.
+
+              3) Musical genre prediction: Implemented using ML techniques
+              
+              It is a machine learning project implemented using regression module (Linear regression).It was managed to implement from the famous musical dataset Spotify which has been extracted from Kaggle and predicted the genre with an accuracy of 99%.
+              
+              4) PERSONAL PORTFOLIO:Implemented using Front-end web development tools`;
+              informationDiv.style.backgroundColor = 'aqua';
+              informationDiv.style.color = 'black';
+              informationDiv.style.border = '2px solid black';
+              informationDiv.style.margin = '20px';
+              informationDiv.style.padding = '20px';
+
+              const body = document.querySelector('body');
+              body.appendChild(informationDiv);
+
+              isInformationDisplayed = true; // Set the flag to true to indicate that the information is displayed
+            }
+          });
+        });
+        window.addEventListener('DOMContentLoaded', (event) => {
+          let isInformationDisplayed = false; // Flag variable to track whether the information is displayed
+
+          const educationButton = document.querySelector('.EDUCATION');
+          educationButton.addEventListener('click', () => {
+            if (!isInformationDisplayed) {
+              const informationDiv = document.createElement('div');
+              informationDiv.innerText =`
+              
+               B.Tech ELECTRICAL AND COMPUTER ENGINEERING 
+              
+              AMRITA SCHOOL OF ENGINEERING - CBE`;
+              informationDiv.style.backgroundColor = 'aqua';
+              informationDiv.style.color = 'black';
+              informationDiv.style.border = '2px solid black';
+              informationDiv.style.margin = '20px';
+              informationDiv.style.padding = '20px';
+
+              const body = document.querySelector('body');
+              body.appendChild(informationDiv);
+
+              isInformationDisplayed = true; // Set the flag to true to indicate that the information is displayed
+            }
+          });
+        });
+        window.addEventListener('DOMContentLoaded', (event) => {
+          let isInformationDisplayed = false; // Flag variable to track whether the information is displayed
+
+          const contactButton = document.querySelector('.CONTACT');
+          contactButton.addEventListener('click', () => {
+            if (!isInformationDisplayed) {
+              const informationDiv = document.createElement('div');
+              informationDiv.innerText =`MAIL - 2904pranavadhar@gmail.com
+              
+              PHONE - +91 7397250247`;
+              informationDiv.style.backgroundColor = 'aqua';
+              informationDiv.style.color = 'black';
+              informationDiv.style.border = '2px solid black';
+              informationDiv.style.margin = '20px';
+              informationDiv.style.padding = '20px';
+
+              const body = document.querySelector('body');
+              body.appendChild(informationDiv);
+
+              isInformationDisplayed = true; // Set the flag to true to indicate that the information is displayed
+            }
+          });
+        });
+    </script>
+</head>
+<body style="background-color: aquamarine;">
+    <div class="MYSELF">
+      <h1 style="text-align: center;">PRANAVADHAR A</h1>
+      <h3 style="text-align: center;">PERSONAL PORTFOLIO</h3>
+    </div>
+    <div class="HOME">
+      <h1>HOME</h1>
+    </div>
+    <div class="SUBJECTS">
+      <h1>TECHNICAL</h1>
+    </div>
+    <div class="PROJECTS">
+      <h1>PROJECTS</h1>
+    </div>
+    <div class="CONTESTS">
+      <h1>CONTEST</h1>
+    </div>
+    <div class="EDUCATION">
+      <h1>EDUCATION</h1>
+    </div>
+    <div class="CONTACT">
+      <h1>CONTACT</h1>
+    </div>
+</body>
+</html>
