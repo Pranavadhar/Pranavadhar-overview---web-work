@@ -5,130 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRANAVADHAR PORTFOLIO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #1a1a1a, #ffffff);
-            color: #000000;
-        }
-
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            z-index: 1000;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            margin-right: 20px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        nav div {
-            margin-right: 20px;
-        }
-
-        .MYSELF {
-            padding: 50px;
-            background: linear-gradient(to bottom, #3494bd, #aee7ff);
-            color: #000000;
-            padding: 50px;
-            height: 100vh;
-            box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
-            border-radius: 20px;
-            margin: 50px 20px 20px;
-            box-shadow: 0 2px 5px rgba(249, 0, 0, 0.3);
-            transition: box-shadow 0.3s ease-in-out;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: baseline;
-
-        }
-
-        .home {
-            padding: 50px;
-            background: linear-gradient(to bottom, #3494bd, #aee7ff);
-            color: #000000;
-            box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
-            border-radius: 20px;
-            margin: 20px;
-            box-shadow: 0 2px 5px rgba(249, 0, 0, 0.3);
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        .technical {
-            padding: 50px;
-            background: linear-gradient(to bottom, #3494bd, #aee7ff);
-            color: #000000;
-            box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
-            border-radius: 20px;
-            margin: 20px;
-            box-shadow: 0 2px 5px rgba(249, 0, 0, 0.3);
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        #home h1,
-        #technical h1,
-        #projects h1,
-        #contact h1 {
-            margin-top: 0;
-            text-align: center;
-        }
-
-        #projects .project {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .project-card {
-            background-color: #000000;
-            color: #ffffff;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            box-shadow: 0 2px 5px rgba(249, 0, 0, 0.3);
-            margin-bottom: 20px;
-            padding: 20px;
-            width: calc(33.33% - 20px);
-            margin: 20px;
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        .project-card:hover {
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-        }
-
-        .contact {
-            padding: 50px;
-            background: linear-gradient(to bottom, #3494bd, #aee7ff);
-            color: #000000;
-            box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
-            border-radius: 20px;
-            margin: 20px;
-            box-shadow: 0 2px 5px rgba(249, 0, 0, 0.3);
-            transition: box-shadow 0.3s ease-in-out;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -145,29 +22,31 @@
             <a href="https://www.linkedin.com/in/pranavadhar-a-b19525289/" target="_blank">LINKEDIN</a>
         </div>
     </nav>
-    <div class="MYSELF">
-        <h1 style="text-align: center; padding: 20px; font-size: 80px">PRANAVADHAR A</h1>
-        <h3 style="text-align: center; padding: 3px; font-size: 80px">PERSONAL PORTFOLIO</h3>
+    <div class="MYSELF" id="myself">
+        <h1 style="text-align: center; padding: 200px; font-size: 110px">PRANAVADHAR A PORTFOLIO</h1>
     </div>
 
     <div class="home" id="home">
-        <h1 style="text-align: center;">HOME</h1>
+        <h1>HOME</h1>
         <p>Skilled in both software development and machine learning and I have a proven works of developing
             aesthetically pleasing applications and implementing interactive websites using machine learning models.
             Competent at solving issues, maintaining a cutting edge in skill updates for advancement, and improving
             machine learning and software core competencies.</p>
     </div>
     <div class="technical" id="technical">
-        <h1 style="text-align: center;">TECHNICAL</h1>
+        <h1>TECHNICAL</h1>
         <ul>
-            <li>Programming languages – C, Python, C++</li><br>
-            <li>Data Structures and Algorithm</li><br>
-            <li>Front-end Web development tools – HTML, CSS, JAVA SCRIPT</li><br>
-            <li>Machine Learning</li><br>
-            <li>Deep Learning</li><br>
-            <li>CNN</li><br>
-            <li>Design & Prototype - FIGMA</li><br>
-            <li>Digital Image Processing</li><br>
+            <li>Programming languages – C, Python, C++</li>
+            <li>Data Structures and Algorithm</li>
+            <li>Front-end Web development tools – HTML, CSS, JavaScript</li>
+            <li>Digital Image Processing</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>CNN</li>
+            <li>LSTM</li>
+            <li>Design & Prototype - FIGMA</li>
+            <li>Simulation - MATLAB</li>
+            
         </ul>
     </div>
     <div id="projects">
@@ -224,26 +103,11 @@
         </div>
     </div>
     <div class="contact" id="contact">
-        <h1 style="text-align: center;">CONTACT</h1>
-        <p>Email: 2904pranavadhar@gmail.com</p><br>
-        <p>Phone: +91 7397250247</p><br>
+        <h1>CONTACT</h1>
+        <p>Email: 2904pranavadhar@gmail.com</p>
+        <p>Phone: +91 7397250247</p>
     </div>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
