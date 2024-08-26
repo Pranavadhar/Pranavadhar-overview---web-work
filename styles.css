@@ -58,6 +58,7 @@ nav div {
 
 .home,
 .technical,
+.certifications,
 .contact {
     padding: 50px;
     background: linear-gradient(to bottom, #3494bd, #aee7ff);
@@ -72,19 +73,23 @@ nav div {
 #home h1,
 #technical h1,
 #projects h1,
+#certifications h1,
+#internships h1,
 #contact h1 {
     margin-top: 0;
     text-align: center;
 }
 
-#projects .project {
+#projects .project,
+#internships .internship{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
-.project-card {
+.project-card,
+.internship-card{
     background: linear-gradient(to bottom, #00ffb7, #d0fce3);
     color: #000000;
     border: 1px solid #ccc;
@@ -97,7 +102,9 @@ nav div {
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.project-card:hover {
+.project-card:hover,
+.internship-card:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Additional styles as per your original CSS */
