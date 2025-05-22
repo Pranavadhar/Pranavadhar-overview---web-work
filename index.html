@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <h1>TECHNICAL</h1>
         <ul>
             <li>Programming languages – C, Python, C++</li>
-            <!--<li>Data Structures and Algorithm</li> -->
+            <li>Data Structures and Algorithm</li>
             <li>Front-end Web development tools – HTML, CSS, JavaScript</li>
             <li>Digital Image Processing</li>
             <li>Machine Learning</li>
@@ -61,33 +61,36 @@
         <h1>PROJECTS</h1>
         <div class="project">
             <div class="project-card">
-                <h2><b>1) AGROSENSE: Implemented using ML techniques and deployed with gradio</b></h2>
+                <h2><b>1) PREDICTIVE MAINTENANCE OF EV's: Implemented a hybrid  Hardware setup built from scratch and LSTM model for predictive analysis </b></h2>
+                <p>The project implements predictive maintenance for electric vehicles using a mini car with sensors, storing data in Firebase and deploying ML models (GRU, LSTM, NARX) to monitor battery, motor, and speed parameters. 
+                    The best-performing model (LSTM) is integrated into a Stream lit UI for fault forecasting, while a separate website display collected sensor data</p>
+                <p>LINK : <a href="https://fyp-web-ten.vercel.app/index.html" target="_blank">PMEV</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>2) BREAST CANCER ABNORMALITY PREDICTION: IMPLEMENTED USING DL TECHNIQUES (CNN)</b></h2>
+                <p>This CNN project for breast cancer abnormality classification uses the CBIS-DDSM dataset, employing deep learning techniques to classify the type of abnormality in the breast mass. Built a convolutional neural network (CNN) for accurate image classification. 
+                    Enhanced model performance through hyperparameter tuning and data augmentation.</p>
+                <p>DATASET : CBIS -DDSM images</p>
+                <p>LINK : <a href="https://huggingface.co/spaces/Pranavadhar/CBIS_ABNORMALITY" target="_blank">BREAST CANCER ABNORMALITY CLASSIFICATION</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>3) OBJECT HUMAN DETECTION:Implemented using yoloV3</b></h2>
+                <p>Developed and implemented an image processing project to detect humans and objects using machine learning algorithms.
+                    Utilized computer vision techniques to accurately identify and classify objects in real-time. Enhanced system efficiency through advanced preprocessing and optimization methods.</p><br>
+                    <p>LINK : <a href="https://huggingface.co/spaces/Pranavadhar/OBJECT-DETECTION" target="_blank">OBJ-HUM DETECTOR</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>4) Multi-Layered Camera Surveillance: IOT </b></h2>
+                <p>Proposed a multi-layered IoT-based security system for robust access control.This project uses Firebase as the database and ESP32 camera for basic surveillance. It includes two-factor authentication via RFID and fingerprint scanning, facial recognition as the third layer, and a master website for monitoring entry times fetched from Firebase.</p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>5) AGROSENSE: Implemented using ML techniques and deployed with gradio</b></h2>
                 <p>It is a machine learning project implemented to determine the crops suitabble to grow under specific soil condition.</p>
                 <p>LINK : <a href="https://cropprediction-agrosense.streamlit.app/" target="_blank">CROP PREDICTION
                     PREDICTION</a></p><br>
             </div>
             <div class="project-card">
-                <h2><b>2) BREAST CANCER ABNORMALITY PREDICTION: IMPLEMENTED USING DL TECHNIQUES (CNN)</b></h2>
-                <p>It is a CNN project implemented to classify the given input x ray image to find the abnormality of the cancer(mass or calcification).</p>
-                <p>DATASET : CBIS -DDSM images</p>
-                <p>LINK : <a href="https://huggingface.co/spaces/Pranavadhar/CBIS_ABNORMALITY" target="_blank">BREAST CANCER ABNORMALITY CLASSIFICATION</a></p><br>
-            </div>
-            <div class="project-card">
-                <h2><b>3) EMOTION CLASSIFICATION: IMPLEMENTED USING DL TECHNIQUES (CNN)</b></h2>
-                <p>IIt is a CNN project implemented to classify the emotions from the given input image.</p>
-                <p>LINK: <a href="https://huggingface.co/spaces/Pranavadhar/EMOTION"
-                        target="_blank">EMOTION CLASSIFICATION</a></p><br>
-            </div>
-            <div class="project-card">
-                <h2><b>4) Road safety accident severity prediction: Implemented using ML techniques and deployed
-                        with GRADIO.</b></h2>
-                <p>It is a machine learning project implemented to get greater information about the accident
-                    severity from the dataset.</p>
-                <p>LINK : <a href="https://pranavadhar-rta.streamlit.app/" target="_blank">ACCIDENT SEVERITY
-                        PREDICTION</a></p><br>
-            </div>
-            <div class="project-card">
-                <h2><b>5) Machine fault Detection: Implemented using ML techniques and deployed with GRADIO.</b>
+                <h2><b>6) Machine fault Detection: Implemented using ML techniques and deployed with GRADIO.</b>
                 </h2>
                 <p>It is a machine learning project implemented to determine the condition of the motor, whether it
                     is healthy or faulty. A sound signal has been processed, and the features are extracted to form
@@ -96,51 +99,71 @@
                         target="_blank">MACHINE FAULT DETECTION</a></p><br>
             </div>
             <div class="project-card">
-                <h2><b>6) ENTRY PORTAL: Implemented using Frontend web development tools</b></h2>
+                <h2><b>7) EMOTION CLASSIFICATION: IMPLEMENTED USING DL TECHNIQUES (CNN)</b></h2>
+                <p>IIt is a CNN project implemented to classify the emotions from the given input image.</p>
+                <p>LINK: <a href="https://emotion-classification-pranavadhar.streamlit.app/"
+                        target="_blank">EMOTION CLASSIFICATION</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>8) Road safety accident severity prediction: Implemented using ML techniques and deployed
+                        with GRADIO.</b></h2>
+                <p>It is a machine learning project implemented to get greater information about the accident
+                    severity from the dataset.</p>
+                <p>LINK : <a href="https://pranavadhar-rta.streamlit.app/" target="_blank">ACCIDENT SEVERITY
+                        PREDICTION</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>9) ANOKHA QUIZ PORTAL: Implemented using Frontend web development tools</b></h2>
+                <p>This project employs the use of HTML and CSS which is useful to access the quiz round by round. Created a dynamic, multi-page quiz application with a clean user interface. 
+                    Integrated CSS animations and transitions to improve user engagement.</p>
+                <p>LINK : <a href="https://pranavadhar.github.io/algo-ml/" target="_blank">ANOKHA QUIZ PORTAL</a></p><br>
+            </div>
+            <div class="project-card">
+                <h2><b>10) ENTRY PORTAL: Implemented using Frontend web development tools</b></h2>
                 <p>The SIMPLE ENTRY PORTAL is a simple and easy to use website for people to sign up and log in. It
                     has a clean and modern look, making it easy for users to create accounts or log in without any
                     trouble.</p>
                 <p>LINK : <a href="https://pranavadhar.github.io/SIGNUP-LOGIN-PORTAL/" target="_blank">SIGNU UP /
                         LOGIN PORTAL</a></p><br>
             </div>
-            <div class="project-card">
-                <h2><b>7) OBJECT HUMAN DETECTION:Implemented using yoloV3</b></h2>
-                <p>Developed and implemented an image processing project to detect humans and objects using machine learning algorithms.
-                    Utilized computer vision techniques to accurately identify and classify objects in real-time. Enhanced system efficiency through advanced preprocessing and optimization methods.</p><br>
-                    <p>LINK : <a href="https://huggingface.co/spaces/Pranavadhar/OBJECT-DETECTION" target="_blank">OBJ-HUM DETECTOR</a></p><br>
-            </div>
-            <div class="project-card">
-                <h2><b>8) Multi-Layered Camera Surveillance: IOT </b></h2>
-                <p>Proposed a multi-layered IoT-based security system for robust access control.This project uses Firebase as the database and ESP32 camera for basic surveillance. It includes two-factor authentication via RFID and fingerprint scanning, facial recognition as the third layer, and a master website for monitoring entry times fetched from Firebase.</p><br>
-            </div>
+            
         </div>
     </div>
     <div class="certifications" id="certifications">
         <h1>CERTIFICATIONS</h1>
-        <p>(1) <a href="https://www.mygreatlearning.com/certificate/AGDXEACD" target="_blank">Great Learning - SQL for Data science</a></p>
-        <p>(2) <a href="https://www.mygreatlearning.com/certificate/NIJMWIEV" target="_blank">Great Learning - Python for Machine Learning</a></p>
-        <p>(3) <a href="https://www.mygreatlearning.com/certificate/XKZCXSSM" target="_blank">Great Learning - Fundamentals of Python</a></p>
-        <p>(4) <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_6XC8fyRiheBkt6uwG_1720890765954_completion_certificate.pdf" target="_blank">Forage - Accenture: Data Analytics and Visualization Job Simulation</a></p>
-        <p>(5) <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_5X5qLhKK2XJ7WzawK_1721404394211_completion_certificate.pdf" target="_blank">Forage - BCG: Data Science Job Simulation</a></p>
-        <p>(6) MATLAB - Simulink Onramp</a></p>        
+        <p>(1) <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzIyIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzc2OTY5MV83ODczOTA3MTczNjc1ODkxMDQwMi5wbmciLCJ1c2VybmFtZSI6IlByYW5hdmFkaGFyIEEifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4211%2FPower-BI-for-Beginners%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1436932049489013228&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FV9wxzCvKvKqoyD0iyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDANgM%2Fe5BAAAA" target="_blank">SimpiliLearn - POWER BI for Beginners</a></p>
+        <p>(2) <a href="https://www.linkedin.com/in/pranavadhar-a-b19525289/overlay/1730526712876/single-media-viewer/?profileId=ACoAAEYF1gUBjUDilEEBacEfNpihMXFVl0zmz2U" target="_blank">Pro5.ai - Certified AI Engineer</a></p>
+        <p>(3) <a href="https://www.mygreatlearning.com/certificate/AGDXEACD" target="_blank">Great Learning - SQL for Data science</a></p>
+        <p>(4) <a href="https://www.mygreatlearning.com/certificate/NIJMWIEV" target="_blank">Great Learning - Python for Machine Learning</a></p>
+        <p>(5) <a href="https://www.mygreatlearning.com/certificate/XKZCXSSM" target="_blank">Great Learning - Fundamentals of Python</a></p>
+        <p>(6) <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_6XC8fyRiheBkt6uwG_1720890765954_completion_certificate.pdf" target="_blank">Forage - Accenture: Data Analytics and Visualization Job Simulation</a></p>
+        <p>(7) <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_5X5qLhKK2XJ7WzawK_1721404394211_completion_certificate.pdf" target="_blank">Forage - BCG: Data Science Job Simulation</a></p>
+        <p>(8) <a href="https://www.linkedin.com/in/pranavadhar-a-b19525289/details/certifications/1729851151570/single-media-viewer/?profileId=ACoAAEYF1gUBjUDilEEBacEfNpihMXFVl0zmz2U" target="_blank">MATLAB - Simulink Onramp</a></p>       
     </div>
     <div id="internships">
         <h1>INTERNSHIP</h1>
         <div class="internship">
             <div class="internship-card">
-                <h2><b>1) CODE CLAUSE - AI intern</b></h2>
-                <p>Experienced in the working of vision projects of detecting objects in a human and surrounded by the
-                    human.Skilled in developing and implementing machine learning models for real-time image processing
-                    tasks.</p>
-                    <p>Duration: June 2024 - July 2024</p><br>
+                <h2><b>1) C5i.ai - Data Engineer intern</b></h2>
+                <p>Gained hands-on experience in both data engineering and data science domains. Developed a Retrieval-Augmented Generation (RAG) pipeline using Azure OpenAI for intelligent querying and response generation.
+                     Utilized Azure Databricks for large-scale data processing and transformation. Managed data workflows and storage solutions using Azure Storage Account. 
+                    Involved in designing, developing, and deploying end-to-end AI-powered data pipelines in a cloud environment.</p>
+                    <p>Duration: Jan 2025 - Present</p><br>
             </div>
             <div class="internship-card">
                 <h2><b>2) Sartorius Stedim India - Automation & Instrumentation intern</b></h2>
                 <p>Experienced a hands-on work environment in the automation and instrumentation field. Performed R&D
                      and data analysis on various automation components required to set up an automation site and to
-                    design an automation architecture.</p>
+                    design an automation architecture.Hands on experience on PLC and PLC integeration.</p>
                     <p>Duration: June 2024 - July 2024</p><br>
                
+            </div>
+            <div class="internship-card">
+                <h2><b>3) CODE CLAUSE - AI intern</b></h2>
+                <p>Experienced in the working of vision projects of detecting objects in a human and surrounded by the
+                    human.Skilled in developing and implementing machine learning models for real-time image processing
+                    tasks.</p>
+                    <p>Duration: May 2024 - June 2024</p><br>
             </div>
         </div>
     </div>
@@ -150,7 +173,7 @@
         <p><i class="fas fa-phone"></i> +91 7397250247</p>
     </div>
     
-    <script src="scripts.js"></script>
+    <script src="portfolio.js"></script>
 </body>
 
 </html>
