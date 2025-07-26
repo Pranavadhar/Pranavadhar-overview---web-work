@@ -173,7 +173,7 @@ nav {
 }
 
 .project-card {
-    background: linear-gradient(to bottom, #10b981, #d1fae5);
+    background: linear-gradient(to bottom, #4e6dd3, #d1fae5);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -195,12 +195,12 @@ nav {
 
 .internship-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, minmax(350px, 1fr)); /* Force 2 columns */
     gap: 30px;
 }
 
 .internship-card {
-    background: linear-gradient(to bottom, #10b981, #d1fae5);
+    background: linear-gradient(to bottom, #025b8b, #d1fae5);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -210,12 +210,25 @@ nav {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.experience-card {
+    background: linear-gradient(to bottom, #5504b1ab, #d1fae5);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .internship-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-
+.experience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 .project-card h2, .internship-card h2 {
     font-size: 1.6rem;
     margin-bottom: 15px;
@@ -227,6 +240,10 @@ nav {
 }
 
 .internship-card .duration {
+    color: #111827;
+    font-weight: 500;
+}
+.experience-card .duration {
     color: #111827;
     font-weight: 500;
 }
@@ -336,7 +353,7 @@ footer {
     }
 
     .project-container, .internship-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Stack into one column on small screens */
     }
 
     .project-container.center-last {
